@@ -12,7 +12,7 @@ import httpx
 
 from dli.config import RAW
 
-UA = "dubai-location-intel/0.1 (+https://github.com/surabhigeo/dubai-location-intel)"
+UA = "dubai-location-intel/0.1 (+https://github.com/Surabhi3011/dubai-location-intel)"
 HF_SALES = "https://huggingface.co/datasets/dubairealestatedata/dubai-real-estate-sales-transactions/resolve/main"
 DATADUBAI = "https://raw.githubusercontent.com/datadubai/dubai-real-estate-dld/HEAD"
 DATADUBAI_FILES = [

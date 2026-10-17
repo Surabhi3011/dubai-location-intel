@@ -37,7 +37,7 @@ export default function About() {
       </p>
       <p>
         Built by <b className="text-ink">Surabhi Gupta</b> (GeoCloud Insights). Code:{" "}
-        <a className="text-accent-ink underline" href="https://github.com/surabhigeo/dubai-location-intel">github.com/surabhigeo/dubai-location-intel</a>.
+        <a className="text-accent-ink underline" href="https://github.com/Surabhi3011/dubai-location-intel">github.com/Surabhi3011/dubai-location-intel</a>.
       </p>
       {info && <p>Data through <b className="text-ink">{dateLabel(info.data_through)}</b>. Built {dateLabel(info.built_at)}. Rolling 12-month figures cover {dateLabel(info.window_12m[0])} to the end of {dateLabel(info.last_full_month).replace(/^1 /, "")}.</p>}
 
