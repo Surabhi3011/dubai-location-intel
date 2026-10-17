@@ -36,11 +36,19 @@ export default function MarketPulse() {
   const and = where ? `${where} and` : "where";
 
   const kpiSql = !useJson && win
-    ? `select w, count(*) sales, sum(price)::double value_aed, median(psf) psf,
-         avg(case when market='offplan' then 100.0 else 0 end) offplan_share,
-         (select count(*) from (select community_id from sales ${and} ${inWindow(win.current)} group by 1 having count(*) >= 10)) active
-       from (select *, case when ${inWindow(win.current)} then 'cur' when ${inWindow(win.previous)} then 'prev'
-                           when ${inWindow(win.yearAgo)} then 'yoy' end w from sales ${where}) where w is not null group by w`
+    ? `with t as (
+         select *, case when ${inWindow(win.current)} then 'cur' when ${inWindow(win.previous)} then 'prev'
+                        when ${inWindow(win.yearAgo)} then 'yoy' end as w
+         from sales ${where}),
+       k as (
+         select w, count(*) sales, sum(price)::double value_aed, median(psf) psf,
+                avg(case when market='offplan' then 100.0 else 0 end) offplan_share
+         from t where w is not null group by w),
+       a as (
+         select w, count(*) active from (
+           select w, community_id from t where w is not null group by w, community_id having count(*) >= 10
+         ) group by w)
+       select k.*, coalesce(a.active, 0) active from k left join a using (w)`
     : null;
   const kpiQ = useSql<Kpis & { w: string }>(["kpi"], kpiSql);
 

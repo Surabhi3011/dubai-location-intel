@@ -30,6 +30,15 @@ npm install
 npm run dev
 ```
 
+## Deploy (GitHub Pages)
+
+1. Push this repository to GitHub. Then go to **Settings → Pages** and set the source to **GitHub Actions**.
+2. Optional: add an `ANTHROPIC_API_KEY` repository secret to enable AI memos. Without it, memos use the rule-based template.
+3. Run the **Data refresh** workflow once (Actions → Data refresh → Run workflow). It builds the data, publishes it to the `data` branch and triggers **Deploy**.
+4. After that, Data refresh runs every Monday, and every push to `main` redeploys with the latest data build.
+
+`ci.yml` runs on every pull request: ruff and pytest for the pipeline, then ESLint, `tsc` and Vitest for the web app. Playwright smoke tests run locally with `npm run build && npm run e2e`.
+
 ## Disclaimer
 
 Informational only. Not investment advice. The dashboard is not affiliated with the Dubai Land Department, Dubai Municipality or any government entity.
