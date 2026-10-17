@@ -194,6 +194,8 @@ def build(con: duckdb.DuckDBPyConnection) -> Tables:
     k["sales_change_12m"] = [_pct_change(a, b) if b >= MIN_RECORDS else None for a, b in zip(k.sales_12m, k.sales_prev_12m)]
     k["offplan_share_12m"] = np.where(k.sales_12m >= MIN_RECORDS, (k.offplan_12m / k.sales_12m * 100).round(1), np.nan)
     k["sales_per_km2"] = (k.sales_12m / k.land_area_km2).round(1)
+    thin_rents = k.rent_contracts_12m < MIN_RECORDS
+    k.loc[thin_rents, ["rent_median", "yield_pct"]] = np.nan
     k["rent_contracts_per_km2"] = (k.rent_contracts_12m / k.land_area_km2).round(1).where(k.rent_median.notna())
     k["supply_pressure"] = np.where(k.sales_12m >= MIN_RECORDS, (k.units_next_24m / k.sales_12m).round(2), np.nan)
     k["active"] = k.sales_12m >= MIN_RECORDS

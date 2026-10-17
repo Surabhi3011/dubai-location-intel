@@ -62,7 +62,7 @@ def export(t: Tables, con: duckdb.DuckDBPyConnection, out: Path, memos: dict | N
     w = t.windows
     sizes: dict[str, int] = {}
 
-    manifest = json.loads((RAW / "manifest.json").read_text()) if (RAW / "manifest.json").exists() else {}
+    manifest = json.loads((RAW / "manifest.json").read_text(encoding="utf-8")) if (RAW / "manifest.json").exists() else {}
     sizes["build_info.json"] = _write_json(out / "build_info.json", {
         "data_through": w.data_end,
         "last_full_month": w.last_full_month,

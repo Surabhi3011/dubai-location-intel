@@ -1,0 +1,62 @@
+name: Data refresh
+
+# Weekly: rebuild every data file from public sources, regenerate memos whose
+# inputs changed, and commit the outputs to the `data` branch for deploy.yml.
+on:
+  schedule:
+    - cron: "0 3 * * 1" # Mondays 03:00 UTC (07:00 Dubai)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+      - name: Cache raw downloads
+        uses: actions/cache@v4
+        with:
+          path: data/raw/osm
+          key: osm-${{ github.run_id }}
+          restore-keys: osm-
+      - name: Build data
+        working-directory: pipeline
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          uv sync
+          uv run dli run all --max-new-memos 120
+      - name: Commit memo cache to main
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/memos/memos.json data/reference/community_crosswalk.csv
+          git diff --cached --quiet || (git commit -m "Refresh memo cache and crosswalk" && git push)
+      - name: Publish outputs to the data branch
+        # Built in a clean directory so nothing untracked from the workspace leaks into the branch.
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          rm -rf /tmp/databranch && mkdir /tmp/databranch && cp -r data/output/. /tmp/databranch/
+          cd /tmp/databranch
+          git init -q -b data
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -q -m "Data build $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push --force "https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git" data
+      - name: Trigger deploy
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run deploy.yml --ref main

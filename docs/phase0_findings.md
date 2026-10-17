@@ -63,6 +63,7 @@ Decision (user, 17 Oct 2026): build v1 on fallbacks and attributed CC BY 4.0 mir
 | Comparable sales | Available (row-level, no unit numbers in the source) |
 
 ## 6. Data quality notes
+- **Schema change in 2026.** The DLD gateway feed (2026 rows) codes villas as `property_type = Building, property_sub_type = Villa`, where the Pulse backfill used `Villa`. Without handling this, about 7,000 villa sales in 2026 disappear. The cleaning step treats both codings as villas.
 - `quality_flags = 0` on 97.9% of rows since Oct 2021. We use the flagged P1–P99 trim, then re-trim per community-year per plan §5.2.
 - `Unit` includes hotel apartments, offices and shops. Price stats keep `usage = Residential` and `property_sub_type` ∈ {Flat, Villa, Stacked Townhouses, NULL-villa}.
 - The datadubai project file covers only about 770 projects (those with sales). The full DLD register is larger, so supply figures are a lower bound.

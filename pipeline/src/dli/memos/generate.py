@@ -19,6 +19,7 @@ from dli.aggregate.build import Tables
 
 MODEL = "claude-sonnet-5-5"
 DISCLAIMER = "AI-generated from public data, not investment advice."
+TEMPLATE_DISCLAIMER = "Rule-based summary generated from public data, not investment advice."
 
 SYSTEM_PROMPT = """You write one-page location memos for real estate analysts about communities in Dubai.
 
@@ -224,7 +225,7 @@ def generate(t: Tables, cache_path: Path, max_new: int = 200, use_ai: bool = Tru
         if memo is None:
             memo = template_memo(f)
         out[cid] = {"hash": h, "source": source, "model": MODEL if source == "ai" else None,
-                    "data_through": f["data_through"], "memo": memo, "disclaimer": DISCLAIMER}
+                    "data_through": f["data_through"], "memo": memo, "disclaimer": DISCLAIMER if source == "ai" else TEMPLATE_DISCLAIMER}
     cache_path.parent.mkdir(parents=True, exist_ok=True)
     cache_path.write_text(json.dumps(out, indent=1, ensure_ascii=False), encoding="utf-8")
     return out

@@ -17,3 +17,6 @@ web/public/data/
 Thumbs.db
 .vscode/
 .env
+web/test-results/
+web/playwright-report/
+*.tsbuildinfo

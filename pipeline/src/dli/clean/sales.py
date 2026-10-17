@@ -31,7 +31,7 @@ def clean(con: duckdb.DuckDBPyConnection, sales_parquet: Path, crosswalk_csv: Pa
                 case when s.reg_type_label = 'Off-Plan' then 'offplan' else 'ready' end as market,
                 case
                     when s.property_type_label = 'Villa' then 'villa'
-                    when s.property_sub_type = 'Stacked Townhouses' then 'villa'
+                    when s.property_sub_type in ('Villa', 'Stacked Townhouses') then 'villa'
                     else 'apartment'
                 end                                                     as ptype,
                 s.rooms_bucket::tinyint                                 as rooms,
@@ -46,7 +46,9 @@ def clean(con: duckdb.DuckDBPyConnection, sales_parquet: Path, crosswalk_csv: Pa
             from read_parquet('{sales_parquet.as_posix()}') s
             left join xw on xw.dld_area_id = s.area_id
             where s.usage_label = 'Residential'
-              and s.property_type_label in ('Unit', 'Villa')
+              -- The 2026 DLD gateway feed codes villas as Building/Villa; the Pulse backfill used Villa.
+              and (s.property_type_label in ('Unit', 'Villa')
+                   or (s.property_type_label = 'Building' and s.property_sub_type = 'Villa'))
               and coalesce(s.property_sub_type, '') not in ({excluded})
               and (s.quality_flags & 16) = 0          -- BAD_DATE
               and s.instance_date >= date '2010-01-01'

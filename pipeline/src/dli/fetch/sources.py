@@ -93,7 +93,7 @@ def _sha256(path: Path) -> str:
 
 def fetch_all(force: bool = False, only: set[str] | None = None) -> dict:
     manifest_path = RAW / "manifest.json"
-    manifest = json.loads(manifest_path.read_text()) if manifest_path.exists() else {}
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else {}
     with httpx.Client(headers={"User-Agent": UA}, follow_redirects=True, timeout=600) as client:
         for src in SOURCES:
             if only and src.key not in only:
@@ -129,5 +129,5 @@ def fetch_all(force: bool = False, only: set[str] | None = None) -> dict:
         manifest.setdefault(src.key, {}).update(
             {"url": src.url, "licence": src.licence, "attribution": src.attribution}
         )
-    manifest_path.write_text(json.dumps(manifest, indent=2))
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False), encoding="utf-8")
     return manifest
