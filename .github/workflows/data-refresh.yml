@@ -1,7 +1,9 @@
 name: Data refresh
 
-# Weekly: rebuild every data file from public sources, regenerate memos whose
-# inputs changed, and commit the outputs to the `data` branch for deploy.yml.
+# Weekly: rebuild every data file from public sources and commit the outputs to
+# the `data` branch for deploy.yml. Site summaries are rule-based and free.
+# AI memos are opt-in: they run only when the repository variable
+# ENABLE_AI_MEMOS is "true" AND an ANTHROPIC_API_KEY secret exists.
 on:
   schedule:
     - cron: "0 3 * * 1" # Mondays 03:00 UTC (07:00 Dubai)
@@ -36,13 +38,17 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           uv sync
-          uv run dli run all --max-new-memos 120
-      - name: Commit memo cache to main
+          if [ "${{ vars.ENABLE_AI_MEMOS }}" = "true" ]; then
+            uv run dli run all --max-new-memos 120
+          else
+            uv run dli run all --no-memos
+          fi
+      - name: Commit summary cache to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/memos/memos.json data/reference/community_crosswalk.csv
-          git diff --cached --quiet || (git commit -m "Refresh memo cache and crosswalk" && git push)
+          git diff --cached --quiet || (git commit -m "Refresh site summaries and crosswalk" && git push)
       - name: Publish outputs to the data branch
         # Built in a clean directory so nothing untracked from the workspace leaks into the branch.
         env:

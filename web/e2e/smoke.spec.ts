@@ -6,7 +6,7 @@ const pages = [
   ["#/explorer", "Community Explorer"],
   ["#/rental", "Rental & Yield Analyzer"],
   ["#/supply", "Supply Pipeline & Developer Tracker"],
-  ["#/site", "AI Site Analyst"],
+  ["#/site", "Site Analyst"],
   ["#/screener", "Investment Screener"],
   ["#/about", "About & Data"],
 ] as const;
