@@ -1,0 +1,19 @@
+# data
+data/raw/
+data/interim/
+data/output/
+# python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+# node
+node_modules/
+web/dist/
+web/public/data/
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.env
