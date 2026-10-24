@@ -1,4 +1,4 @@
-"""Write web-ready static files into data/output/ (architecture.md §4, output files)."""
+"""Write web-ready static files into data/output/."""
 
 from __future__ import annotations
 

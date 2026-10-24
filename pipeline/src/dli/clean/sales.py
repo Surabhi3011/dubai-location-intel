@@ -1,4 +1,4 @@
-"""Clean DLD residential sales (plan.md §5.2) into data/interim/sales_clean.parquet."""
+"""Clean DLD residential sales into data/interim/sales_clean.parquet."""
 
 from __future__ import annotations
 

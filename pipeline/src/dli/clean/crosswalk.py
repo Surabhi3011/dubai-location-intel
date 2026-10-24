@@ -1,6 +1,6 @@
 """Build the DLD area -> Dubai Municipality community crosswalk.
 
-Match order (plan.md §5.1): exact ID -> normalized name -> fuzzy name -> manual override.
+Match order: exact ID -> normalized name -> fuzzy name -> manual override.
 Manual overrides live in data/reference/community_crosswalk_overrides.csv and always win.
 """
 

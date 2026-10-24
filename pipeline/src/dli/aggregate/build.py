@@ -1,4 +1,4 @@
-"""Compute every KPI table the web app needs (plan.md §7–9)."""
+"""Compute every KPI table the web app needs."""
 
 from __future__ import annotations
 

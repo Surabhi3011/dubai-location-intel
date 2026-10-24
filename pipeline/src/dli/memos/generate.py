@@ -1,4 +1,4 @@
-"""AI site memos (plan.md §10, architecture.md §6).
+"""AI site memos.
 
 Facts in -> memo out. Only computed facts are sent to the model; every number in a memo must
 exist in its facts (fact-check). Memos that fail are regenerated once, then replaced by a
