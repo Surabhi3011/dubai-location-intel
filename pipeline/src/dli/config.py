@@ -13,12 +13,12 @@ SQL_DIR = ROOT / "pipeline" / "sql"
 UTM40N = 32640  # metre-accurate CRS for Dubai
 SQFT_PER_SQM = 10.7639
 
-# plan.md §5.2
+# Data-quality thresholds
 MIN_RECORDS = 10
 MIN_UNIT_SQM, MAX_UNIT_SQM = 15, 5000
 DETAIL_YEARS = 5  # row-level detail window
 
-# plan.md §9 — Location Score weights
+# Location Score weights
 SCORE_WEIGHTS = {
     "transit": 0.20,
     "amenities": 0.20,

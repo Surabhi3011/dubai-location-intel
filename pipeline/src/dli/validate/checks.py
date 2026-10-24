@@ -1,4 +1,4 @@
-"""Fail the build on bad data (architecture.md §4, stage 6)."""
+"""Fail the build on bad data."""
 
 from __future__ import annotations
 
