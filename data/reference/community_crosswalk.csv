@@ -1,150 +1,150 @@
 dld_area_id,dld_area_name,dm_community_id,dm_community_name,match_method,match_score,n_sales_5y,verified
-441,Al Barsha South Fourth,681,Al Barsha South Fourth,normalized_name,100.0,65153,true
-526,Business Bay,346,Business Bay,normalized_name,100.0,49553,true
-462,Madinat Al Mataar,521,Madinat Al Mataar,normalized_name,100.0,36630,true
-467,Wadi Al Safa 5,648,Wadi Al Safa 5,normalized_name,100.0,35352,true
-330,Marsa Dubai,392,Marsa Dubai,normalized_name,100.0,35049,true
-412,Al Merkadh,347,Al Merkadh,normalized_name,100.0,28231,true
-445,Jabal Ali First,591,Jabal Ali First,normalized_name,100.0,28051,true
-390,Burj Khalifa,345,Burj Khalifa,normalized_name,100.0,23929,true
-482,Hadaeq Sheikh Mohammed Bin Rashid,631,Hadaeq Sheikh Mohammed Bin Rashid,normalized_name,100.0,23909,true
-350,Al Thanyah Fifth,393,Al Thanyah Fifth,normalized_name,100.0,23190,true
-447,Al Khairan First,415,Al Kheeran First,manual,100.0,19808,true
-451,Al Hebiah Fifth,683,Al Hebiah Fifth,normalized_name,100.0,19455,true
-465,Wadi Al Safa 3,645,Wadi Al Safa 3,normalized_name,100.0,19013,true
-409,Al Barshaa South Third,673,Al Barsha South Third,fuzzy,97.67441860465115,18912,true
-435,Al Hebiah Fourth,682,Al Hebiah Fourth,normalized_name,100.0,16687,true
-485,Me'Aisem First,685,Me'aisem First,normalized_name,100.0,15100,true
-333,Madinat Dubai Almelaheyah,321,Madinat Dubai Al Melaheyah,manual,100.0,14457,true
-442,Al Barsha South Fifth,684,Al Barsha South Fifth,normalized_name,100.0,13467,true
-444,Al Hebiah First,674,Al Hebiah First,normalized_name,100.0,12129,true
-506,Al Yelayiss 1,921,Al Yalayis 1,fuzzy,90.9090909090909,11773,true
-505,Madinat Hind 4,914,Madinat Hind 4,normalized_name,100.0,11667,true
-507,Al Yelayiss 2,922,Al Yalayis 2,fuzzy,91.42857142857143,11295,true
-343,Al Warsan First,621,Warsan First,fuzzy,88.88888888888889,11273,true
-459,Dubai Investment Park Second,597,Dubai Investment Park Second,normalized_name,100.0,10889,true
-405,Bukadra,611,Bu Kadra,fuzzy,93.33333333333333,10719,true
-469,Al Yufrah 1,915,Al Yufrah 1,normalized_name,100.0,10575,true
-410,Palm Jumeirah,381,Nakhlat Jumeira,manual,100.0,10489,true
-414,Al Barshaa South Second,672,Al Barsha South Second,fuzzy,97.77777777777777,10371,true
-432,Palm Deira,101,Nakhlat Deira,manual,100.0,10358,true
-484,Nadd Hessa,626,Nadd Hessa,normalized_name,100.0,9831,true
-334,Al Jadaf,326,Al Jadaf,normalized_name,100.0,8912,true
-523,Al Hebiah Third,676,Al Hebiah Third,normalized_name,100.0,8887,true
-364,Al Wasl,343,Al Wasl,normalized_name,100.0,8843,true
-463,Wadi Al Safa 7,665,Wadi Al Safa 7,normalized_name,100.0,7722,true
-466,Wadi Al Safa 4,646,Wadi Al Safa 4,normalized_name,100.0,7603,true
-335,Nad Al Shiba First,618,Nadd Al Shiba First,normalized_name,100.0,6620,true
-464,Wadi Al Safa 2,643,Wadi Al Safa 2,normalized_name,100.0,6520,true
-478,Jabal Ali Industrial Second,518,Jabal Ali Industrial Second,normalized_name,100.0,5015,true
-452,Al Hebiah Second,675,Al Hebiah Second,normalized_name,100.0,4740,true
-483,Warsan Fourth,624,Warsan Fourth,normalized_name,100.0,4569,true
-458,Dubai Investment Park First,598,Dubai Investment Park First,normalized_name,100.0,4273,true
-351,Al Thanyah Third,388,Al Thanyah Third,normalized_name,100.0,4159,true
-376,Ras Al Khor Industrial First,612,Ras Al Khor Ind. First,normalized_name,100.0,3659,true
-531,Al Hebiah Sixth,677,Al Hebiah Sixth,normalized_name,100.0,3616,true
-370,Um Suqaim Third,366,Umm Suqeim Third,fuzzy,90.32258064516128,3468,true
-352,Al Thanayah Fourth,394,Al Thanyah Fourth,fuzzy,97.14285714285714,3164,true
-266,Al Satwa,334,Al Satwa,normalized_name,100.0,3089,true
-366,Al Kifaf,324,Al Kifaf,normalized_name,100.0,3002,true
-332,Zaabeel Second,337,Zaa'beel Second,normalized_name,100.0,2936,true
-331,Zaabeel First,325,Zaa'beel First,normalized_name,100.0,2338,true
-486,Me'Aisem Second,686,Me'aisem Second,normalized_name,100.0,2309,true
-453,Saih Shuaib 2,531,Saih Shuaib 2,normalized_name,100.0,2303,true
-284,Jabal Ali,591,Jabal Ali First,manual,100.0,2216,true
-411,Palm Jabal Ali,501,Nakhlat Jabal Ali,manual,100.0,2102,true
-317,Jumeirah First,332,Jumeira First,normalized_name,100.0,2056,true
-480,Saih Shuaib 1,513,Saih Shuaib 1,normalized_name,100.0,1909,true
-443,Al Thanyah First,383,Al Thanyah First,normalized_name,100.0,1832,true
-434,Wadi Al Safa 6,664,Wadi Al Safa 6,normalized_name,100.0,1823,true
-232,Mirdif,251,Mirdif,normalized_name,100.0,1811,true
+441,Al Barsha South Fourth,681,Al Barsha South Fourth,normalized_name,100.0,65806,true
+526,Business Bay,346,Business Bay,normalized_name,100.0,49835,true
+462,Madinat Al Mataar,521,Madinat Al Mataar,normalized_name,100.0,37445,true
+467,Wadi Al Safa 5,648,Wadi Al Safa 5,normalized_name,100.0,35772,true
+330,Marsa Dubai,392,Marsa Dubai,normalized_name,100.0,35140,true
+412,Al Merkadh,347,Al Merkadh,normalized_name,100.0,28427,true
+445,Jabal Ali First,591,Jabal Ali First,normalized_name,100.0,28404,true
+482,Hadaeq Sheikh Mohammed Bin Rashid,631,Hadaeq Sheikh Mohammed Bin Rashid,normalized_name,100.0,24033,true
+390,Burj Khalifa,345,Burj Khalifa,normalized_name,100.0,24001,true
+350,Al Thanyah Fifth,393,Al Thanyah Fifth,normalized_name,100.0,23324,true
+447,Al Khairan First,415,Al Kheeran First,manual,100.0,19970,true
+451,Al Hebiah Fifth,683,Al Hebiah Fifth,normalized_name,100.0,19851,true
+465,Wadi Al Safa 3,645,Wadi Al Safa 3,normalized_name,100.0,19476,true
+409,Al Barshaa South Third,673,Al Barsha South Third,fuzzy,97.67441860465115,19123,true
+435,Al Hebiah Fourth,682,Al Hebiah Fourth,normalized_name,100.0,16707,true
+485,Me'Aisem First,685,Me'aisem First,normalized_name,100.0,15274,true
+333,Madinat Dubai Almelaheyah,321,Madinat Dubai Al Melaheyah,manual,100.0,14689,true
+442,Al Barsha South Fifth,684,Al Barsha South Fifth,normalized_name,100.0,13655,true
+444,Al Hebiah First,674,Al Hebiah First,normalized_name,100.0,12394,true
+506,Al Yelayiss 1,921,Al Yalayis 1,fuzzy,90.9090909090909,11923,true
+505,Madinat Hind 4,914,Madinat Hind 4,normalized_name,100.0,11781,true
+343,Al Warsan First,621,Warsan First,fuzzy,88.88888888888889,11430,true
+507,Al Yelayiss 2,922,Al Yalayis 2,fuzzy,91.42857142857143,11405,true
+459,Dubai Investment Park Second,597,Dubai Investment Park Second,normalized_name,100.0,10948,true
+405,Bukadra,611,Bu Kadra,fuzzy,93.33333333333333,10820,true
+469,Al Yufrah 1,915,Al Yufrah 1,normalized_name,100.0,10754,true
+410,Palm Jumeirah,381,Nakhlat Jumeira,manual,100.0,10559,true
+432,Palm Deira,101,Nakhlat Deira,manual,100.0,10559,true
+414,Al Barshaa South Second,672,Al Barsha South Second,fuzzy,97.77777777777777,10444,true
+484,Nadd Hessa,626,Nadd Hessa,normalized_name,100.0,9914,true
+334,Al Jadaf,326,Al Jadaf,normalized_name,100.0,9118,true
+523,Al Hebiah Third,676,Al Hebiah Third,normalized_name,100.0,8985,true
+364,Al Wasl,343,Al Wasl,normalized_name,100.0,8892,true
+466,Wadi Al Safa 4,646,Wadi Al Safa 4,normalized_name,100.0,7803,true
+463,Wadi Al Safa 7,665,Wadi Al Safa 7,normalized_name,100.0,7756,true
+335,Nad Al Shiba First,618,Nadd Al Shiba First,normalized_name,100.0,6793,true
+464,Wadi Al Safa 2,643,Wadi Al Safa 2,normalized_name,100.0,6738,true
+478,Jabal Ali Industrial Second,518,Jabal Ali Industrial Second,normalized_name,100.0,5464,true
+452,Al Hebiah Second,675,Al Hebiah Second,normalized_name,100.0,4804,true
+483,Warsan Fourth,624,Warsan Fourth,normalized_name,100.0,4696,true
+458,Dubai Investment Park First,598,Dubai Investment Park First,normalized_name,100.0,4515,true
+351,Al Thanyah Third,388,Al Thanyah Third,normalized_name,100.0,4197,true
+376,Ras Al Khor Industrial First,612,Ras Al Khor Ind. First,normalized_name,100.0,3681,true
+531,Al Hebiah Sixth,677,Al Hebiah Sixth,normalized_name,100.0,3648,true
+370,Um Suqaim Third,366,Umm Suqeim Third,fuzzy,90.32258064516128,3484,true
+352,Al Thanayah Fourth,394,Al Thanyah Fourth,fuzzy,97.14285714285714,3170,true
+266,Al Satwa,334,Al Satwa,normalized_name,100.0,3125,true
+366,Al Kifaf,324,Al Kifaf,normalized_name,100.0,3095,true
+332,Zaabeel Second,337,Zaa'beel Second,normalized_name,100.0,2939,true
+453,Saih Shuaib 2,531,Saih Shuaib 2,normalized_name,100.0,2367,true
+331,Zaabeel First,325,Zaa'beel First,normalized_name,100.0,2353,true
+486,Me'Aisem Second,686,Me'aisem Second,normalized_name,100.0,2322,true
+284,Jabal Ali,591,Jabal Ali First,manual,100.0,2211,true
+411,Palm Jabal Ali,501,Nakhlat Jabal Ali,manual,100.0,2140,true
+317,Jumeirah First,332,Jumeira First,normalized_name,100.0,2044,true
+480,Saih Shuaib 1,513,Saih Shuaib 1,normalized_name,100.0,1961,true
+434,Wadi Al Safa 6,664,Wadi Al Safa 6,normalized_name,100.0,1843,true
+443,Al Thanyah First,383,Al Thanyah First,normalized_name,100.0,1838,true
+232,Mirdif,251,Mirdif,normalized_name,100.0,1830,true
 371,Al Safouh Second,382,Al Safouh Second,normalized_name,100.0,1644,true
-307,Al Safouh First,372,Al Safouh First,normalized_name,100.0,1456,true
-329,Trade Center Second,336,Trade Center Second,normalized_name,100.0,1039,true
-449,Al Yufrah 2,919,Al Yufrah 2,normalized_name,100.0,1014,true
-285,Nad Al Shiba,626,Nadd Hessa,manual,100.0,1003,true
-340,Ghadeer Al tair,355,Ghadeer Al Tair,normalized_name,100.0,944,true
-510,Al Yelayiss 5,925,Al Yalayis 5,fuzzy,90.9090909090909,932,true
-312,Muhaisanah First,261,Muhaisnah First,fuzzy,96.7741935483871,779,true
-348,Al Goze Fourth,359,Al Qouz Fourth,manual,100.0,680,true
-492,Al Rowaiyah First,812,Al Rowaiyah First,normalized_name,100.0,634,true
-341,Trade Center First,335,Trade Center First,normalized_name,100.0,582,true
-413,World Islands,303,World Islands,normalized_name,100.0,574,true
+307,Al Safouh First,372,Al Safouh First,normalized_name,100.0,1501,true
+329,Trade Center Second,336,Trade Center Second,normalized_name,100.0,1043,true
+285,Nad Al Shiba,626,Nadd Hessa,manual,100.0,999,true
+449,Al Yufrah 2,919,Al Yufrah 2,normalized_name,100.0,998,true
+510,Al Yelayiss 5,925,Al Yalayis 5,fuzzy,90.9090909090909,950,true
+340,Ghadeer Al tair,355,Ghadeer Al Tair,normalized_name,100.0,949,true
+312,Muhaisanah First,261,Muhaisnah First,fuzzy,96.7741935483871,775,true
+492,Al Rowaiyah First,812,Al Rowaiyah First,normalized_name,100.0,740,true
+348,Al Goze Fourth,359,Al Qouz Fourth,manual,100.0,678,true
+341,Trade Center First,335,Trade Center First,normalized_name,100.0,588,true
+413,World Islands,303,World Islands,normalized_name,100.0,575,true
 375,Jumeirah Second,342,Jumeira Second,normalized_name,100.0,491,true
-528,Al Yufrah 3,914,Madinat Hind 4,manual,100.0,479,true
-233,Hor Al Anz,127,Hor Al Anz,normalized_name,100.0,408,true
-337,Nad Al Shiba Third,616,Nadd Al Shiba Third,normalized_name,100.0,389,true
+528,Al Yufrah 3,914,Madinat Hind 4,manual,100.0,462,true
+233,Hor Al Anz,127,Hor Al Anz,normalized_name,100.0,412,true
+337,Nad Al Shiba Third,616,Nadd Al Shiba Third,normalized_name,100.0,383,true
 455,Saih Shuaib 4,533,Saih Shuaib 4,normalized_name,100.0,321,true
-264,Nad Al Hamar,416,Nadd Al Hamar,normalized_name,100.0,318,true
-368,Al Barsha First,373,Al Barsha First,normalized_name,100.0,314,true
-437,Al Kheeran,412,Al Kheeran,normalized_name,100.0,288,true
-300,Al Rashidiya,216,Al Rashidiya,normalized_name,100.0,280,true
-345,Al Warsan Third,811,Warsan Third,fuzzy,88.88888888888889,274,true
-527,Island 2,304,Jumeira Island 2,manual,100.0,271,true
-230,Abu Hail,126,Abu Hail,normalized_name,100.0,224,true
-276,Al Bada,333,Al Bada',normalized_name,100.0,193,true
-374,Um Al Sheif,367,Umm Al Sheif,fuzzy,95.65217391304348,193,true
-231,Al Mamzer,134,Al Mamzar,fuzzy,88.88888888888889,185,true
+264,Nad Al Hamar,416,Nadd Al Hamar,normalized_name,100.0,320,true
+368,Al Barsha First,373,Al Barsha First,normalized_name,100.0,315,true
+437,Al Kheeran,412,Al Kheeran,normalized_name,100.0,290,true
+300,Al Rashidiya,216,Al Rashidiya,normalized_name,100.0,281,true
+345,Al Warsan Third,811,Warsan Third,fuzzy,88.88888888888889,275,true
+527,Island 2,304,Jumeira Island 2,manual,100.0,270,true
+230,Abu Hail,126,Abu Hail,normalized_name,100.0,226,true
+276,Al Bada,333,Al Bada',normalized_name,100.0,196,true
+374,Um Al Sheif,367,Umm Al Sheif,fuzzy,95.65217391304348,192,true
+231,Al Mamzer,134,Al Mamzar,fuzzy,88.88888888888889,187,true
+382,Al Waheda,132,Al Wuheida,manual,100.0,176,true
 396,Al Khawaneej First,281,Al Khwaneej First,fuzzy,97.14285714285714,172,true
-382,Al Waheda,132,Al Wuheida,manual,100.0,168,true
-303,Um Suqaim First,356,Umm Suqeim First,fuzzy,90.32258064516128,166,true
-271,Al Karama,318,Al Karama,normalized_name,100.0,154,true
+303,Um Suqaim First,356,Umm Suqeim First,fuzzy,90.32258064516128,167,true
+271,Al Karama,318,Al Karama,normalized_name,100.0,156,true
 522,Hessyan First,511,Hessyan First,normalized_name,100.0,136,true
-338,Al Goze First,354,Al Qouz First,manual,100.0,115,true
-393,Al Barsha Second,376,Al Barsha Second,normalized_name,100.0,115,true
-395,Jabal Ali Industrial First,599,Jabal Ali Industrial First,normalized_name,100.0,114,true
-304,Um Suqaim Second,362,Umm Suqeim Second,fuzzy,90.9090909090909,108,true
-369,Al Barsha Third,375,Al Barsha Third,normalized_name,100.0,102,true
+338,Al Goze First,354,Al Qouz First,manual,100.0,118,true
+393,Al Barsha Second,376,Al Barsha Second,normalized_name,100.0,117,true
+395,Jabal Ali Industrial First,599,Jabal Ali Industrial First,normalized_name,100.0,116,true
+304,Um Suqaim Second,362,Umm Suqeim Second,fuzzy,90.9090909090909,109,true
+369,Al Barsha Third,375,Al Barsha Third,normalized_name,100.0,101,true
 316,Al Mizhar First,262,Al Mizhar First,normalized_name,100.0,100,true
-362,Naif,118,Naif,normalized_name,100.0,91,true
+362,Naif,118,Naif,normalized_name,100.0,92,true
 323,Al Qusais Industrial Fifth,248,Al Qusais Ind. Fifth,normalized_name,100.0,89,true
-249,Al Muteena,123,Al Muteena,normalized_name,100.0,86,true
-306,Al Twar Fourth,234,Al Twar Fourth,normalized_name,100.0,80,true
-328,Al Jafliya,323,Al Jafiliya,fuzzy,95.23809523809523,78,true
+249,Al Muteena,123,Al Muteena,normalized_name,100.0,88,true
+306,Al Twar Fourth,234,Al Twar Fourth,normalized_name,100.0,83,true
+328,Al Jafliya,323,Al Jafiliya,fuzzy,95.23809523809523,79,true
+240,Port Saeed,129,Port Saeed,normalized_name,100.0,78,true
+297,Al Warqa First,421,Al Warqa'a First,fuzzy,96.55172413793103,77,true
 318,Jumeirah Third,352,Jumeira Third,normalized_name,100.0,77,true
-240,Port Saeed,129,Port Saeed,normalized_name,100.0,76,true
-297,Al Warqa First,421,Al Warqa'a First,fuzzy,96.55172413793103,76,true
-267,Al Raffa,316,Al Raffa,normalized_name,100.0,69,true
+267,Al Raffa,316,Al Raffa,normalized_name,100.0,72,true
 298,Al Warqa Third,423,Al Warqa'a Third,fuzzy,96.55172413793103,69,true
 315,Al Manara,363,Al Manara,normalized_name,100.0,69,true
+394,Al Mizhar Second,263,Al Mizhar Second,normalized_name,100.0,67,true
 244,Al Murqabat,124,Al Muraqqabat,fuzzy,91.66666666666666,66,true
-394,Al Mizhar Second,263,Al Mizhar Second,normalized_name,100.0,65,true
-367,Al Suq Al Kabeer,312,Al Souq Al Kabeer,fuzzy,96.96969696969697,64,true
-339,Al Mararr,117,Al Murar,manual,100.0,61,true
+367,Al Suq Al Kabeer,312,Al Souq Al Kabeer,fuzzy,96.96969696969697,66,true
+339,Al Mararr,117,Al Murar,manual,100.0,62,true
 438,Al Ttay,284,Al Ttay,normalized_name,100.0,60,true
 454,Saih Shuaib 3,532,Saih Shuaib 3,normalized_name,100.0,58,true
 278,Mankhool,317,Mankhool,normalized_name,100.0,55,true
 477,Mena Jabal Ali,594,Mena Jabal Ali,normalized_name,100.0,55,true
 255,Rega Al Buteen,125,Riggat Al Buteen,manual,100.0,52,true
+269,Al Hamriya,313,Al Hamriya,normalized_name,100.0,48,true
 344,Al Warsan Second,622,Warsan Second,fuzzy,89.65517241379311,48,true
-269,Al Hamriya,313,Al Hamriya,normalized_name,100.0,47,true
 358,Al Twar First,226,Al Twar First,normalized_name,100.0,47,true
-326,Um Hurair Second,315,Umm Hurair Second,fuzzy,96.96969696969697,45,true
+326,Um Hurair Second,315,Umm Hurair Second,fuzzy,96.96969696969697,46,true
+238,Al Dhagaya,113,Al Daghaya,fuzzy,90.0,44,true
+239,Al Baraha,122,Al Baraha,normalized_name,100.0,44,true
 311,Muhaisanah Third,244,Muhaisanah Third,normalized_name,100.0,43,true
-239,Al Baraha,122,Al Baraha,normalized_name,100.0,42,true
-314,Al Saffa Second,357,Al Safa Second,fuzzy,96.55172413793103,42,true
-359,Al Twar Third,228,Al Twar Third,normalized_name,100.0,42,true
-238,Al Dhagaya,113,Al Daghaya,fuzzy,90.0,41,true
+314,Al Saffa Second,357,Al Safa Second,fuzzy,96.55172413793103,43,true
+359,Al Twar Third,228,Al Twar Third,normalized_name,100.0,43,true
+242,Al Ras,112,Al Ras,normalized_name,100.0,42,true
 282,Ras Al Khor,413,Ras Al Khor,normalized_name,100.0,41,true
-242,Al Ras,112,Al Ras,normalized_name,100.0,40,true
+322,Al Qusais Industrial Fourth,247,Al Qusais Ind. Fourth,normalized_name,100.0,39,true
 397,Al Khawaneej Second,282,Al Khwaneej Second,fuzzy,97.2972972972973,39,true
-322,Al Qusais Industrial Fourth,247,Al Qusais Ind. Fourth,normalized_name,100.0,38,true
 415,Al Barshaa South First,671,Al Barsha South First,fuzzy,97.67441860465115,36,true
-354,Al Warqa Second,422,Al Warqa'a Second,fuzzy,96.7741935483871,34,true
-247,Al Khabeesi,128,Al Khabaisi,manual,100.0,33,true
-301,Al Nahda Second,241,Al Nahda Second,normalized_name,100.0,33,true
+301,Al Nahda Second,241,Al Nahda Second,normalized_name,100.0,35,true
+354,Al Warqa Second,422,Al Warqa'a Second,fuzzy,96.7741935483871,35,true
+247,Al Khabeesi,128,Al Khabaisi,manual,100.0,34,true
+398,Al Aweer First,711,Al Awir First,fuzzy,88.88888888888889,31,true
 310,Al Twar Second,227,Al Twar Second,normalized_name,100.0,30,true
-398,Al Aweer First,711,Al Awir First,fuzzy,88.88888888888889,30,true
 401,Wadi Al Amardi,271,Wadi Alamardi,fuzzy,96.2962962962963,30,true
+234,Hor Al Anz East,133,Hor Al Anz East,normalized_name,100.0,28,true
 399,Al Aweer Second,721,Al Awir Second,fuzzy,89.65517241379311,28,true
-234,Hor Al Anz East,133,Hor Al Anz East,normalized_name,100.0,27,true
 235,Eyal Nasser,116,Ayal Nasir,manual,100.0,27,true
 299,Al Warqa Fourth,424,Al Warqa'a Fourth,fuzzy,96.7741935483871,27,true
 406,Nad Al Shiba Fourth,617,Nadd Al Shiba Fourth,normalized_name,100.0,27,true
 305,AL QUSAIS,232,Al Qusais,normalized_name,100.0,24,true
 378,Al Garhoud,214,Al Garhoud,normalized_name,100.0,23,true
+357,AL TWAR FIFTH,233,Al Twar Fifth,normalized_name,100.0,21,true
 355,Al Nahda First,231,Al Nahda First,normalized_name,100.0,20,true
-357,AL TWAR FIFTH,233,Al Twar Fifth,normalized_name,100.0,20,true
 336,Nad Al Shiba Second,615,Nadd Al Shiba Second,normalized_name,100.0,16,true
 361,Muhaisanah Fourth,245,Muhaisanah Fourth,normalized_name,100.0,16,true
 254,Al Buteen,114,Al Buteen,normalized_name,100.0,15,true
@@ -172,10 +172,10 @@ dld_area_id,dld_area_name,dm_community_id,dm_community_name,match_method,match_s
 497,Lehbab Second,831,Lehbab Second,normalized_name,100.0,5,true
 320,Al Qusais Industrial Second,243,Al Qusais Ind. Second,normalized_name,100.0,4,true
 363,Al Qusais Industrial First,242,Al Qusais Ind. First,normalized_name,100.0,4,true
+365,Al Hudaiba,322,Al Hudaiba,normalized_name,100.0,4,true
 504,Madinat Hind 3,913,Madinat Hind 3,normalized_name,100.0,4,true
 308,Al Goze Industrial First,364,Al Qouz Ind.first,manual,100.0,3,true
 349,Grayteesah,941,Grayteesah,normalized_name,100.0,3,true
-365,Al Hudaiba,322,Al Hudaiba,normalized_name,100.0,3,true
 400,Al Eyas,283,Aleyas,fuzzy,92.3076923076923,3,true
 476,Jabal Ali Third,593,Jabal Ali Third,normalized_name,100.0,3,true
 471,Al Rowaiyah Third,814,Al Rowaiyah Third,normalized_name,100.0,2,true
@@ -189,6 +189,7 @@ dld_area_id,dld_area_name,dm_community_id,dm_community_name,match_method,match_s
 470,Al Faga'A,945,Al Fagaa,normalized_name,100.0,1,true
 494,Umm Addamin,824,Umm Al Daman,manual,100.0,1,true
 502,Madinat Hind 1,911,Madinat Hind 1,normalized_name,100.0,1,true
+513,Madinat Latifa,961,Madinat Latifa,normalized_name,100.0,1,true
 514,Ghadeer Barashy,967,Ghadeer Barashy,normalized_name,100.0,1,true
 515,Saih Aldahal,971,Saih Al Dahal,fuzzy,96.0,1,true
 518,Mugatrah,981,Mugatrah,normalized_name,100.0,1,true
